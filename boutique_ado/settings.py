@@ -207,6 +207,9 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = config('STRIPE_PUBLIC_KEY')
 STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')
 STRIPE_WH_SECRET = config('STRIPE_WH_SECRET')
+DEFAULT_FROM_EMAIL = 'boutiqueado@example.com'
+
+
 #
 # if 'DEVELOPMENT' in os.environ:
 #     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
